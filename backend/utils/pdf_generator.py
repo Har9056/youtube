@@ -1,3 +1,4 @@
+#backend/utils/pdf_generator.py
 from fpdf import FPDF
 from datetime import datetime
 from pathlib import Path

@@ -1,3 +1,4 @@
+#frontend/utils.py
 import streamlit as st
 import pandas as pd
 def display_comparison_table(comparison_data):

@@ -1,3 +1,4 @@
+#backend/crew/tasks.py
 from crewai import Task
 from backend.crew.agents import content_analyst_agent, strategy_advisor_agent,growth_recommendation_agent
 

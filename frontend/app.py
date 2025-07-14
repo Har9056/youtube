@@ -1,10 +1,11 @@
+#frontend/app.py
 import streamlit as st
 import requests
 import os
 import pandas as pd
 from frontend_utils import plot_bar_comparison
 import os
-API_URL = os.getenv("API_URL", "http://backend:8000")
+API_URL = os.getenv("API_URL", "http://youtube-backend:8000")
 
 
 # Page config
